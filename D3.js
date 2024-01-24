@@ -218,7 +218,7 @@ if (totalMass < 500) {
 
 for (let i = 0; i < starWarsCharacters.length; i++) {
   if (starWarsCharacters[i].gender === "n/a") {
-    starWarsCharacters[i].gender = "Fluid";
+    starWarsCharacters[i].gender = "Robot";
   }
 }
 console.log(starWarsCharacters);
